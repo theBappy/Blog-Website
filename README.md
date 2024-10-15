@@ -1,0 +1,1 @@
+-->Responsive blog template with HTML,CSS and Vanilla JS
