@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
-    --main-bg-color: #67A1EB;
+    --main-bg-color: #a5c8f8;
     --font1: "Lora", serif;
     --font2: "Roboto", sans-serif;
 }
@@ -49,4 +49,17 @@
     border-radius: 4px;
     margin: 0 12px;
     font-family: var(--font1);
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.form-box input, textarea {
+    width: 38vw;
+    padding: 5px 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 7px 0;
+    font-size: 14px;
+    font-family: system-ui;
 }

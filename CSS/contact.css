@@ -1,0 +1,35 @@
+.contact-content{
+    /* display: flex; */
+    /* height: 400px; */
+    height: 80vh;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+/* .content {
+    background-color: rgb(216, 216, 243);
+    display: flex;
+    height: 400px;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    
+} */
+.contact-content::after{
+     content: "";
+     background-image: url('../images/8.webp');
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: inherit;
+     opacity: 0.20;
+     border-radius: 12px;
+     z-index: -1;
+     
+}
+/* .contact-form{
+    height: 80vh;
+} */
