@@ -3,7 +3,7 @@
   padding: 0;
 }
 .navigation {
-  height: 74px;
+  /* height: 74px; */
   /* background-color: red; */
   display: flex;
   justify-content: space-between;
@@ -46,7 +46,7 @@
 .content {
   /* background-color: rgb(216, 216, 243); */
   display: flex;
-  height: 400px;
+  height: 100%;
   margin-top: 32px;
   padding: 9px;
   position: relative;
