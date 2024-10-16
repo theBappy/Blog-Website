@@ -19,6 +19,7 @@
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 .more-post{
     flex-direction: column;
